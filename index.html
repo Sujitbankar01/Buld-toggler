@@ -24,9 +24,7 @@
             width: 500px;
             height: fit-content;
             margin: 40px auto;
-            border: 2px double BLACK;
-            border-radius: 15px;
-
+           
         }
         .img{
             width: 370px;
@@ -36,6 +34,7 @@
             margin-bottom: 30px;
             border-radius: 10px;
             border: 2px solid #661a00  ;
+            
         }
 
         .container2{
@@ -77,6 +76,7 @@
             border: none;
             padding-bottom: 5px;
             cursor: pointer;
+            
         }
 
        
@@ -105,7 +105,7 @@
         function look(style){
 
             const imgElement = document.getElementById("1");
-            const containerElement = document.getElementById("container");
+           
             const headingElement = document.getElementById("heading");
 
             if (style == 'ODI'){
@@ -113,32 +113,23 @@
             imgElement.src = "./imgs/odi.jfif"
             imgElement.style.border = "2px solid #333300"
 
-            containerElement.style.border = "2px solid #333300"
-
             headingElement.innerText = "ODI CAPTAN"
             headingElement.style.color = "#333300"
 
             } else if(style == "TEST"){
             imgElement.src = "./imgs/test.jfif"
-            imgElement.style.border = "2px solid #804d00"
-
-           
-            containerElement.style.border = "2px solid #804d00"
-
-            
-            headingElement.innerText = "TEST"
-            headingElement.style.color = "#804d00"
+            imgElement.style.border = "2px solid #333300"
+     
+           headingElement.innerText = "TEST CAPTAIN"
+            headingElement.style.color = "#333300"
 
             }else{
             imgElement.src = "./imgs/t20.jfif"
-            imgElement.style.border = "2px solid #003300"
-
-            
-            containerElement.style.border = "2px solid #003300"
+            imgElement.style.border = "2px solid #333300"
 
            
-            headingElement.innerText = "T20"
-            headingElement.style.color = "#003300"
+            headingElement.innerText = "T20 CAPTAIN"
+            headingElement.style.color = "#333300"
             }
   
 
